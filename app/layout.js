@@ -1,4 +1,5 @@
 import '../styles.css';
+import './order.css';
 
 export const metadata = {
   title: 'Forever Surprise | Send a little magic',

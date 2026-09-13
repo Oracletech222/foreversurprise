@@ -1,0 +1,25 @@
+.wide-field {
+  grid-column: 1 / -1;
+}
+
+.checkout-button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.form-error {
+  color: #b42318;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.order-card {
+  align-self: start;
+}
+
+@media (max-width: 800px) {
+  .wide-field {
+    grid-column: auto;
+  }
+}
