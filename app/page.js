@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Forever Surprise home"><span className="brand-mark">✦</span><span><strong>Forever</strong><em>Surprise</em></span></a>
+        <a className="brand" href="#top" aria-label="Forever Surprise home"><img className="brand-logo" src="/logo.png" alt="Forever Surprise Pokhara" /></a>
         <nav className="main-nav" aria-label="Main navigation"><a href="#bundles">Gift bundles</a><a href="#how-it-works">How it works</a><a href="#stories">Love notes</a></nav>
         <button className="bag-button" type="button" aria-label="View your gift bag">Bag <span className="bag-count">1</span></button>
       </header>
@@ -91,7 +91,7 @@ export default function Home() {
         <section className="how-section" id="how-it-works"><div className="section-intro"><p className="eyebrow">The easy part</p><h2>From your heart<br />to their hands.</h2></div><div className="steps"><div><span>01</span><h3>Pick a feeling</h3><p>Choose a ready-to-send bundle or make it personal.</p></div><div><span>02</span><h3>Add your words</h3><p>We’ll tuck your handwritten note in with the magic.</p></div><div><span>03</span><h3>We make the moment</h3><p>Fresh, beautiful, and delivered right on time.</p></div></div></section>
         <section className="stories-section" id="stories"><div className="story-quote">“It arrived like a tiny celebration.<br /><em>She cried happy tears.</em>”</div><div className="story-author"><span>— Srijana, Lakeside</span><span className="quote-dots">● ○ ○</span></div></section>
       </main>
-      <footer><a className="brand" href="#top"><span className="brand-mark">✦</span><span><strong>Forever</strong><em>Surprise</em></span></a><span>Made for your favorite people · Pokhara, Nepal</span><span>© 2025 Forever Surprise</span></footer>
+      <footer><a className="brand" href="#top" aria-label="Forever Surprise home"><img className="brand-logo" src="/logo.png" alt="Forever Surprise Pokhara" /></a><span>Made for your favorite people · Pokhara, Nepal</span><span>© 2025 Forever Surprise</span></footer>
       <div className={`toast ${showToast ? 'show' : ''}`} role="status">Your surprise is ready to continue ♡</div>
     </>
   );

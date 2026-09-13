@@ -18,6 +18,18 @@
   align-self: start;
 }
 
+.brand-logo {
+  display: block;
+  width: 132px;
+  height: 58px;
+  object-fit: contain;
+}
+
+footer .brand-logo {
+  width: 116px;
+  height: 52px;
+}
+
 @media (max-width: 800px) {
   .wide-field {
     grid-column: auto;
